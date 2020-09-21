@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #042331;
+}
+
+
+
+.edu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transform: translateY(-50%);
+    max-width: 600px;
+    margin: 50vh auto auto auto;
+    min-height: 450px;
+    background-color: #44c4ff;
+    color:  #042331;
+    padding: 20px;
+    box-shadow: 5px 3px 13px -5px white;
+}
+
+.edu table{
+    border: 2px solid #042331;
+    margin: auto auto;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    transform: translateX(-1%);
+}
+
+.personalDet{
+    font-family: sans-serif;
+}
+
+.personalDet h2{
+    padding: 10px;
+    font-weight: 500;
+}
+
+.personalDet h4{
+    font-weight: 200;
+}
+
+#table #heading td{
+    font-weight: 500;
+    background-color: #042331;
+    color: rgba(255, 255, 255, 0.925);
+    padding: 5px 10px;
+} 
+
+#table .details td{
+    background-color: #67c8f8;
+}
+
